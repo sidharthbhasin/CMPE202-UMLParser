@@ -1,8 +1,12 @@
 
 
-public class Parser{
+public class Parser implements ParserInterface{
 
-  public void parse(){
+  public void parseCode(){
     
+  }
+  
+  public boolean validateCode(){
+  
   }
 }
