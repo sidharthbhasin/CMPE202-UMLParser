@@ -6,7 +6,7 @@ public class Parser implements ParserInterface{
     
   }
   
-  public boolean validateCode(){
+  public boolean validateCode(String code){
   
   }
   
