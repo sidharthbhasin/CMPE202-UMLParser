@@ -16,3 +16,5 @@ Grading:
 10 points for a short one page PDF file describing the libraries and tools you used to create the parser.
 
 If you don't submit your source code, or if your source code is found to be similar to another student's work, your final project submission with be worth zero out of 60.
+
+The parser should also consider different test cases, how to optimize the algorithm and achieve an optimal algorithm.
