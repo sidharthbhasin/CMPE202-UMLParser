@@ -2,7 +2,7 @@
  
 public interface ParserInterface{
 
-  void parseCode();
+  void parseCode(String code);
   boolean validateCode(String code);
   void divideCode(String code);
 }
