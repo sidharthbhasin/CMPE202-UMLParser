@@ -9,4 +9,8 @@ public class Parser implements ParserInterface{
   public boolean validateCode(){
   
   }
+  
+  public void divideCode(String code){
+  
+  }
 }
