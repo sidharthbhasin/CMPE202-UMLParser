@@ -2,7 +2,7 @@
 
 public class Parser implements ParserInterface{
 
-  public void parseCode(){
+  public void parseCode(String code){
     
   }
   
