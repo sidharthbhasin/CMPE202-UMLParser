@@ -3,6 +3,6 @@
 public interface ParserInterface{
 
   void parseCode();
-  boolean validateCode();
+  boolean validateCode(String code);
   void divideCode(String code);
 }
