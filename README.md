@@ -22,3 +22,6 @@ The parser should also consider different test cases, how to optimize the algori
 NOTE:
 Static and Abstract notation in UML are rarely used in practice. The project scope won't consider these requirements.
 
+Relationships Between Interfaces is possible conceptually in UML. But, the project scope won't consider these situations.
+
+We will only consider Public Methods.
