@@ -18,3 +18,7 @@ Grading:
 If you don't submit your source code, or if your source code is found to be similar to another student's work, your final project submission with be worth zero out of 60.
 
 The parser should also consider different test cases, how to optimize the algorithm and achieve an optimal algorithm.
+
+NOTE:
+Static and Abstract notation in UML are rarely used in practice. The project scope won't consider these requirements.
+
