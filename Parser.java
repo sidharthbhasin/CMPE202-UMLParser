@@ -1,4 +1,4 @@
-  import java.io.File;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -42,17 +42,17 @@ public class Parser implements ParserInterface{
     }
   
     private String parser() {
-		  String result = "";
-	        String className = "";
+	String result = "";
+	String className = "";
 	        
-		  return " ";
-	  }
+	return " ";
+    }
 	  
-	  private String aToSymScope(String stringScope) {
-	        switch (stringScope) {
-	        case "private":
-	            return "-";
-	        case "public":
+    private String aToSymScope(String stringScope) {
+	switch (stringScope) {
+	    case "private":
+	        return "-";
+	    case "public":
 	            return "+";
 	        default:
 	            return "";
