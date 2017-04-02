@@ -58,4 +58,32 @@ public class Parser implements ParserInterface{
 	            return "";
 	        }
 	    }
+	
+	public ArrayList<CompilationUnit> readFileFromFolder(String location){
+		  ArrayList<CompilationUnit> allUnits= new ArrayList<CompilationUnit>();
+			location="/Users/Harshit/LECTURES/202/umlparser/TestClass";
+			File files= new File(location);
+			for(File file:files.listFiles()){
+				if(file.getName().matches("^.*\\.java$")){
+					FileInputStream fis=null;
+					try {
+						fis = new FileInputStream(file);
+					if(fis!=null){
+						
+						allUnits.add((CompilationUnit)JavaParser.parse(file));
+					}
+						} catch (ParseException e) {	
+						}catch (IOException e) {
+						}
+					}
+			}
+			return allUnits;
+		}
+	  
+	    private void buildMap(ArrayList<CompilationUnit> cuArray) {
+	    	for (CompilationUnit cu : cuArray) {
+	    		 List cl = cu.getTypes();
+		            
+	        }
+	    }
 }
