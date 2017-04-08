@@ -1,6 +1,5 @@
 public class MainClass {
-
-	public static void main(String args[]){
+  public static void main(String args[]){
     
     // we have to enter a code input here.
     // Let that input be from a '.java' file.
