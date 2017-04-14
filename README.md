@@ -1,7 +1,7 @@
 # CMPE202-UMLParser
 
 
-Prohect Guidelines:
+<b>Prohect Guidelines:</b><br>
 Submission:
 
 Submission of PDF and ZIP File to include:
