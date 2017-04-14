@@ -15,6 +15,7 @@ public class MainClass {
         code = sb.toString();
     } catch(Exception e){
     	System.out.println("EXCEPTION");
+	e.printStackTrace();
     }finally {
         br.close();
     }
