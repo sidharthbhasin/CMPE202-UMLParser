@@ -1,7 +1,6 @@
 
 
 public class Application{
-  
   public static void main(String args[]){
     
     // we have to enter a code input here.
