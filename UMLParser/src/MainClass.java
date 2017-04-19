@@ -36,4 +36,8 @@ public class MainClass {
 	e.printStackTrace();
     }
   }
+	
+  public void printCode(){
+  
+  }
 }
