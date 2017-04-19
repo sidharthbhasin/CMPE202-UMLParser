@@ -27,17 +27,17 @@ public class Parser implements Methods{
 		// TODO Auto-generated method stub
 	  }
 
-	public void start() throws Exception {
+	  public void start() throws Exception {
 		currentArray = readFileFromFolder(inputPath);
 		System.out.println("Code Started");
-	}
+	  }
   
-        private String parser() {
-	    String result = "";
-	    String className = "";
+          private String parser() {
+	      String result = "";
+	      String className = "";
 
-            return " ";
-        }
+              return " ";
+          }
 	  
 	private String aToSymScope(String stringScope) {
 		switch (stringScope) {
