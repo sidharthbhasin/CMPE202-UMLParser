@@ -26,9 +26,9 @@ public class Application{
   
   public void generator(String code){
     if(code == null || code.length() == 0){
-			System.out.println("Please enter valid code.");
-			System.exit(0);
-		}
+	System.out.println("Please enter valid code.");
+	System.exit(0);
+    }
     try {
 				Parser parser = new Parser();
         parser.validateCode(code);
