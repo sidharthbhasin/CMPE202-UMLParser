@@ -30,11 +30,11 @@ public class Application{
 	System.exit(0);
     }
     try {
-				Parser parser = new Parser();
+	Parser parser = new Parser();
         parser.validateCode(code);
-			} catch (Exception e) {
-				System.out.println("Exception: ");
-				e.printStackTrace();
-			}
+    } catch (Exception e) {
+	System.out.println("Exception: ");
+	e.printStackTrace();
+    }
   }
 }
