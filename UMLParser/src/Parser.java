@@ -9,7 +9,6 @@ import japa.parser.ParseException;
 import japa.parser.ast.CompilationUnit;
 
 public class Parser implements Methods{
-
 	  public void parseCode(String code){}
 	  public boolean validateCode(String code){}
 	  public void divideCode(String code){}
