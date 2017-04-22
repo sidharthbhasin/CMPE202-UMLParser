@@ -19,7 +19,6 @@ public class MainClass {
     }finally {
         br.close();
     }
-	  
     generator(everything);    
   }
   
