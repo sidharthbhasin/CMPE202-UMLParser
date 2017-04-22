@@ -9,7 +9,6 @@ import japa.parser.ParseException;
 import japa.parser.ast.CompilationUnit;
 
 public class Parser implements ParserInterface{
-
   	ArrayList<CompilationUnit> currentArray;
 	String inputPath, outputPath;
 	
