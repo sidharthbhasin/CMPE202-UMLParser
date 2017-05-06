@@ -25,3 +25,5 @@ Static and Abstract notation in UML are rarely used in practice. The project sco
 Relationships Between Interfaces is possible conceptually in UML. But, the project scope won't consider these situations.
 
 We will only consider Public Methods.
+
+new
